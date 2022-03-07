@@ -5,6 +5,7 @@ def busqueda_man():
     busqueda_por_man = tk.Toplevel()
     busqueda_por_man.geometry('800x500')
     busqueda_por_man.title('BUSQUEDA')
+    #Hola Git
 
     scrollbar = tk.Scrollbar(busqueda_por_man)
     c = tk.Canvas(busqueda_por_man, yscrollcommand=scrollbar.set)
